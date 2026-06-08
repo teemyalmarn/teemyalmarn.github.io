@@ -1,6 +1,7 @@
 /* Universal seletor */
-/** {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 /* tag selector / element selector */
@@ -65,4 +66,74 @@ a:visited {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+
+/* Border */
+.borderOne {
+    border: 2px solid red;
+    /* size style color */
+
+}
+.borderTwo {
+    border-top: 5px solid green;
+    /* border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red; */
+}
+
+/* border width */
+.borderThree {
+    border-style: solid;
+    /* border-width: 10px;
+    /* T / R / B / L */
+    /* border-width: 5px 50px;
+    /* T&B / R&L */
+    /* border-width: 5px 10px 50px;
+    /* T / R&L / B */
+    border-width: 5px 10px 15px 20px;
+    T / R / B / L */
+}
+
+/* border style */
+
+.borderFour{
+    border-style: solid;
+    /* border-style: solid dotted; 
+    border-style: dotted dashed solid;
+    border-style: dotted dashed solid double;
+    border-width: 5px;
+    border-color: green yellow red blue; */
+}
+
+/* margin */
+
+.marginOne {
+    border: 2px solid red;
+    /* margin: 50px 0 0 0; */
+
+    margin-top: 50px;
+}
+
+/*Padding */
+
+.paddingOne {
+    /* padding: 50px; */
+    border: 2px solid red;
+
+    padding-left: 50px;
+}
+
+
+/* inline layout */
+
+.inline {
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
+}
+
+.block {
+    border: 2px solid red;
+    width: 300px;
+    display: inline-block;
 }
