@@ -137,3 +137,46 @@ a:visited {
     width: 300px;
     display: inline-block;
 }
+
+/* float */
+
+.Float {
+    width: 50%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.Float_left {
+    width: 50%;
+    float: left;
+}
+
+/* flex lesson */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: red;
+}
+
+/* grid lesson */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: auto auto auto; */
+    color: #ffffff;
+    grid-gap: 30px;
+}
+
+.grid_child {
+    padding: 30px;
+    text-align: center;
+}
+
