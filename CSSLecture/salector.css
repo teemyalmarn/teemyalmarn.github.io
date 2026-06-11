@@ -255,6 +255,8 @@ a:visited {
     height: 500px;
 }
 
+/* relative */
+
 .prc {
     border: 2px solid green;
     width: 500px;
@@ -265,3 +267,47 @@ a:visited {
     left: 5px;
 }
 
+.pa {
+    border: 2px solid brown;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+/* absolute */
+
+.pac {
+    border: 2px solid yellow;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    /* top Button left right */
+    top: 50px;
+    left: 50px;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* online font */
+.on {
+    font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+/* offline font */
+
+@font-face {
+    font-family: "tmm";
+    src: url("Playwrite_AU_VIC_Guides/PlaywriteAUVICGuides-Regular.ttf");
+}
+
+.off {
+    font-family: "tmm";
+}
