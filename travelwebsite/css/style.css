@@ -14,6 +14,10 @@
     font-family: gabarito;
 }
 
+.body {
+    background-color: #8f8989;
+}
+
 
 /* navbar start */
 
@@ -119,8 +123,9 @@
 }
 
 .nav_btn:hover {
-    border-bottom: 3px solid blue;
-    width: 110px;
+    width: 105px;
+    font-size: 16px;
+    height: 33px;
 }
 
 /* navber end */
