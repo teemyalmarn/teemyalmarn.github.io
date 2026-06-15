@@ -26,15 +26,17 @@
     align-items: start;
     justify-content: space-between;
     flex-direction: row;
+    border-bottom: 1px solid;
+    margin: 0 100px;
 }
 
 .logo {
     width: 100px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .logo:hover {
-    width: 110px;
+    /* width: 102px; */
 }
 
 .main_logo {
@@ -51,6 +53,7 @@
     color: #000;
     margin-right: 50px;
     font-size: 18px;
+    padding: 44px 10px;
 }
 
 
@@ -59,6 +62,7 @@
     color: #000;
     margin-right: 50px;
     font-size: 18px;
+    padding: 44px 10px;
 }
 
 .nav_package {
@@ -66,6 +70,7 @@
     color: #000;
     margin-right: 50px;
     font-size: 18px;
+    padding: 44px 10px;
 }
 
 .nav_about {
@@ -73,6 +78,7 @@
     color: #000;
     margin-right: 50px;
     font-size: 18px;
+    padding: 44px 10px;
 }
 
 .nav_contact {
@@ -80,52 +86,56 @@
     color: #000;
     margin-right: 60px;
     font-size: 18px;
+    padding: 44px 10px;
 }
 
 .nav_btn {
     text-decoration: none;
     color: #fff;
-    background-color: rgb(9, 9, 119);
     border: 0;
-    border-radius: 6px;
+    border-radius: 5px;
     width: 100px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     height: 32px;
     font-size: 15px;
-
+    background-color: #000;
 }
 
 /* pseudo selector */
 
 .nav_home:hover {
     border-bottom: 3px solid blue;
-    font-size: 20px;
+    /* font-size: 20px; */
+
 }
 
 .nav_popular:hover {
     border-bottom: 3px solid blue;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .nav_package:hover {
     border-bottom: 3px solid blue;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .nav_about:hover {
     border-bottom: 3px solid blue;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .nav_contact:hover {
     border-bottom: 3px solid blue;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .nav_btn:hover {
-    width: 105px;
-    font-size: 16px;
-    height: 33px;
+    /* width: 105px; */
+    /* font-size: 16px; */
+    /* height: 33px; */
+    border: 1px solid;
+    background-color: #fff;
+    color: #000;
 }
 
 /* navber end */
