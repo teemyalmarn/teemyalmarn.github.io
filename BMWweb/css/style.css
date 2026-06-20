@@ -1,0 +1,227 @@
+@font-face {
+    font-family: gabarito;
+    src: url(../font/Gabarito/Gabarito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gabarito;
+    /* background-color: #000; */
+    /* color: #fff; */
+}
+
+body {
+    background-color: #eee;
+}
+
+/* start nav  */
+.main_nav {
+    /* background-color: #fff; */
+    /* background-color: #ebe9e9; */
+    /* color: #fff; */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav_contact {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    margin: 0 0px 0 50px;
+}
+.logo {
+    width: 90px;
+    height: 80px;
+    margin-right: 60px;
+}
+
+.nav_item {
+    display: inline-block;
+    list-style: none;
+    /* text-decoration: none; */
+    text-align: center;
+    color: #fff;
+    margin:  auto;
+}
+
+.main_nav ul {
+    margin: auto 0;
+    
+}
+
+.nav_item a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 18px;
+    padding: 26px 8px;
+    /* background-color: blueviolet; */
+    color: #b5b4b4;
+    width: 100%;
+    font-weight: bold;
+}
+
+.nav_item a:hover {
+    border-bottom: 3px solid blue;
+    color: #fff;
+}
+
+.nav_icon {
+    margin: auto;
+}
+.nav_icon a{
+    padding: 20px 10px;
+    /* margin: 0 15px; */
+    /* color: #000; */
+    color: #b5b4b4;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav_icon a:hover{
+    /* border: 1px solid #b5b4b4; */
+    padding: 20px 12px;
+    color: #fff;
+    /* background-color: #b5b4b4; */
+    border-radius: 5px;
+}
+/* End nav  */
+
+/* start banner  */
+.banner video, img {
+    width: 100%;
+    height: 760px;
+    /* margin-bottom: 80px; */
+    position: relative;
+}
+
+.banner_string {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    color: #fff;
+}
+
+.banner_string h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.banner_string h2 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #00f;
+}
+
+.banner_string p{
+    font-size: 25px;
+    /* font-weight: bold; */
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: start;
+    color: #fff;
+}
+
+.btn1 {
+    text-decoration: none;
+    border: 2px solid rgb(50, 50, 249);
+    color: #d4d2d2;
+    background-color: rgb(50, 50, 249);
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: #00f; */
+}
+
+.btn1:hover {
+    background-color: #00f;
+    color: #fff;
+    border: 2px solid #00f;
+    font-weight: bold;
+    /* padding: 12px 30px; */
+}
+
+.btn2{
+    text-decoration: none;
+    border: 1px solid;
+    color: #d4d2d2;
+    /* background-color: rgb(50, 50, 249); */
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.btn2:hover{
+    /* background-color: #00f; */
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+
+
+.main_km {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    width: 70%;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+    position: relative;
+    left: 100px;
+    bottom: 162px;
+}
+
+.km_card h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #923300;
+}
+.km_card h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 161);
+}
+.km_card p{
+    font-size: 18px;
+    text-align: center;
+    color: #cccccc;
+    padding-bottom: 9px;
+}
+.km_card {
+    /* background-color: #eee; */
+    color: #000;
+    border: 1px solid #888888;
+    border-radius: 8px;
+    padding: 5px 0;
+}
+
+.km_card:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.km_icon {
+    color: #923300;
+    /* background-color: #923300; */
+    margin-left: 75px;
+}
+
+/* End banner  */
