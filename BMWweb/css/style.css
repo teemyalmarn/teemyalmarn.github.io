@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: #eee;
+    /* background-color: #eee; */
 }
 
 /* start nav  */
@@ -37,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     /* width: 100%; */
-    margin: 0 0px 0 50px;
+    margin: 0 0px 0 80px;
 }
 .logo {
     width: 90px;
@@ -102,13 +102,13 @@ body {
 .banner video, img {
     width: 100%;
     height: 760px;
-    /* margin-bottom: 80px; */
+    /* margin-bottom: 100px; */
     position: relative;
 }
 
 .banner_string {
     position: absolute;
-    bottom: 100px;
+    top: 210px;
     left: 80px;
     color: #fff;
 }
@@ -181,10 +181,9 @@ body {
     gap: 1px;
     width: 70%;
     margin: 0 auto;
-    /* margin-bottom: 100px; */
-    position: relative;
-    left: 100px;
-    bottom: 162px;
+    position: absolute;
+    left: 300px;
+    top: 602px;
 }
 
 .km_card h1 {
@@ -211,6 +210,7 @@ body {
     border: 1px solid #888888;
     border-radius: 8px;
     padding: 5px 0;
+    text-align: center;
 }
 
 .km_card:hover{
@@ -221,7 +221,127 @@ body {
 .km_icon {
     color: #923300;
     /* background-color: #923300; */
-    margin-left: 75px;
+    /* margin-left: 75px; */
 }
 
 /* End banner  */
+
+/* start card  */
+
+.main_card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background-color: #fff; */
+}
+.main_card h6 {
+    text-align: center;
+    font-size: 40px;
+    /* font-style: oblique; */
+    color: #000;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.card_main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: #b5b4b4; */
+    /* font-weight: lighter; */
+}
+
+.card {
+    text-align: center;
+    color: #5a5858;
+    font-weight: lighter;
+}
+
+
+.card h2 {
+    padding: 40px 0 30px 0;
+    font-weight: lighter;
+}
+
+.card a{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 20px;
+    border: 1px solid #444343;
+    padding: 8px 10px;
+    color: #474747;
+    border-radius: 3px;
+}
+
+.card a:hover {
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* End card  */
+
+
+
+/* start model  */
+
+.main_model {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: #aeacac; */
+    margin-bottom: 100px;
+}
+.model img{
+    width: 55%;
+    height: 400px;
+    float: right;
+    /* background-color: #000; */
+}
+
+.model {
+    /* width: 95%; */
+    margin: 0 auto;
+    /* background-color: #00f; */
+    display: flex;
+}
+
+.model_card {
+    /* background-color: #dfdddd; */
+    /* border: 2px solid; */
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.model_card h1{
+    font-size: 120px;
+    font-weight: lighter;
+    color: #00f;
+}
+.model_card p, h3{
+    font-weight: lighter;
+    margin-left: 10px;
+}
+.model_card p{
+    margin-bottom: 30px;
+}
+
+.model_card a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    margin-left: 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    background-color: #fff;
+    font-size: 18px;
+}
+.model_card a:hover{
+    background-color: #eee;
+    color: #000;
+    /* font-weight: bold; */
+    border: 2px solid #fff;
+}
+
+/* End model  */
