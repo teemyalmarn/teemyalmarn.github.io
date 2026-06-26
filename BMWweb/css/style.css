@@ -23,9 +23,9 @@ body {
 /* start nav  */
 .main_nav {
     /* background-color: #fff; */
-    /* background-color: #ebe9e9; */
+    /* background-color: #e6e4e4; */
     /* color: #fff; */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
     z-index: 1000;
     top: 0;
@@ -38,11 +38,12 @@ body {
     justify-content: space-between;
     /* width: 100%; */
     margin: 0 0px 0 80px;
+    /* background-color: #000; */
 }
 .logo {
     width: 90px;
     height: 80px;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .nav_item {
@@ -216,6 +217,8 @@ body {
 .km_card:hover{
     border: 1px solid #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+        transition: 0.3s;
 }
 
 .km_icon {
@@ -245,8 +248,8 @@ body {
 .card_main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    width: 70%;
+    gap: 5px;
+    width: 80%;
     margin: 0 auto;
     /* background-color: #b5b4b4; */
     /* font-weight: lighter; */
@@ -256,6 +259,7 @@ body {
     text-align: center;
     color: #5a5858;
     font-weight: lighter;
+    padding: 20px;
 }
 
 
@@ -272,6 +276,9 @@ body {
     padding: 8px 10px;
     color: #474747;
     border-radius: 3px;
+}
+.card:hover{
+    background-color: #eee;
 }
 
 .card a:hover {
@@ -290,12 +297,22 @@ body {
     /* height: 500px; */
     /* background-color: #aeacac; */
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 .model img{
-    width: 55%;
-    height: 400px;
+    width: 50%;
+    height: 350px;
     float: right;
     /* background-color: #000; */
+}
+.model img:hover{
+    transform: translateY(-8px);
+    transition: 0.3s;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+    transform: scale(0.500.0.500);
+    transition: 1s;
+    /* transform: scale(1.1);
+        transition: 001.10s; */
 }
 
 .model {
@@ -310,7 +327,7 @@ body {
     /* border: 2px solid; */
     width: 100%;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .model_card h1{
@@ -328,20 +345,245 @@ body {
 
 .model_card a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border: 1px solid #000;
     margin-left: 10px;
     padding: 12px 15px;
     border-radius: 5px;
     /* font-weight: bold; */
-    background-color: #fff;
+    background-color: #100202;
     font-size: 18px;
 }
 .model_card a:hover{
-    background-color: #eee;
-    color: #000;
+    background-color: #929191;
+    color: #fff;
     /* font-weight: bold; */
-    border: 2px solid #fff;
+    border: 2px solid #929191;
 }
 
 /* End model  */
+
+/* start shop  */
+.main_shop {
+   
+    width: 100%;
+    /* margin-bottom: 200px; */
+    /* margin: auto; */
+    /* background-color: #ca0e0e; */
+    margin-top: 150px;
+
+}
+.main_shop_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 5px; */
+    width: 95%;
+    margin: auto;
+    
+}
+
+.shop_card{
+    /* background-color: #00f; */
+    /* margin: 0 100px; */
+    width: 90%;
+    /*  */
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.shop_card:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    transform: translateY(-5px);
+    transition: 1s;
+    border: 2px solid #fff;
+}
+.shop_card img{
+    width: 110%;
+    height: 200px;
+    /* margin-left: 10px; */
+    margin-top: 0px;
+}
+
+.shop_card h2{
+    text-align: center;
+    font-weight: lighter;
+    color: #00f;
+    font-weight: bold;
+}
+.shop_card p{
+    margin-left: 60px;
+    padding: 25px 0;
+}
+.shop_span{
+    float: right;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.shop_card a{
+    text-decoration: none;
+    margin-left: 70px;
+    border: 2px solid #686868;
+    color: #fff;
+    background-color: #686666;
+    padding: 6px 12px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.shop_card a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+/* End shop  */
+
+
+/* start performace */
+.main_grille{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: ;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.grille_img img{
+    width: 400px;
+    height: 250px;
+}
+.grille_string h2{
+    font-size: 25px;
+    color: #00f;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.grille_string p{
+    font-size: 18px;
+}
+/* End performace  */
+
+
+
+/* start about page  */
+.about_page h1{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about_page p{
+    text-align: center;
+    margin: 60px 170px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+/* End about page  */
+
+/* start service page  */
+.service_nav_item a:hover{
+    color: #000;
+}
+.service_main_nav{
+    /* position: relative; */
+    z-index: -100;
+    /* width: 0; */
+}
+
+.service h1{
+    font-weight: lighter;
+    margin: 150px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+}
+.service p{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.main_service{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+}
+
+/* End service page  */
+
+/* start footer  */
+.main_footer{
+    padding: 20px 80px;
+    background-color: #363535;
+    padding-bottom: 120px;
+    color: #cccbcb;
+    margin-top: 100px;
+}
+.logo_footer {
+    display: flex;
+}
+.logo_footer img{
+    width: 60px;
+    height: 55px;
+}
+.logo_footer h2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.logo_footer h5{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.footer_icon{
+    padding-top: 15px;
+    margin-left: 480px;
+    /* padding-left: 20px; */
+}
+
+#icon2{
+    margin-left: 8px;
+    /* border: 2px solid #fff; */
+}
+
+#icon3{
+    margin-left: 8px;
+}
+#icon4{
+    margin-left: 8px;
+}
+#icon1:hover{
+    color: #fff;
+}
+#icon2:hover {
+    color: #fff;
+}
+#icon3:hover {
+    color: #fff;
+}
+#icon4:hover {
+    color: #fff;
+}
+
+.all_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+.page_main a,li{
+    display: block;
+    margin-top: 20px;
+    color: #afafaf;
+    text-decoration: none;
+    font-size: 18px;
+}
+.page_main a:hover{
+    color: #fff;
+}
+
+/* End footer  */
