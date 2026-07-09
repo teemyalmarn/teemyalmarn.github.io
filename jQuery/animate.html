@@ -14,6 +14,7 @@
             color: white;
             text-align: center;
             position: relative;
+            margin-top: 0;
         }
     </style>
 </head>
@@ -25,12 +26,32 @@
     <script>
         $(document).ready(function(){
             $('#start').click(function(){
-                $('#panel').animate({left:'350px'},3000);
-                $('#panel').animate({ top: '350px' }, 3000);
+                $('#panel').animate({left:'1200px'}, 3000);
+                $('#panel').animate({ top: '480px' }, 3000);
                 $('#panel').animate({ left: '0px' }, 3000);
-                $('#panel').animate({ top: '0px' }, 3000);
+                $('#panel').animate({ top: '100px' }, 3000);
+                // 2
+                $('#panel').animate({ left: '1100px' }, 3000);
+                $('#panel').animate({ top: '400px' }, 3000);
+                $('#panel').animate({ left: '100px' }, 3000);
+                $('#panel').animate({ top: '160px' }, 3000);
+                // 3
+                 $('#panel').animate({ left: '1000px' }, 3000);
+                $('#panel').animate({ top: '320px' }, 3000);
+                $('#panel').animate({ left: '160px' }, 3000);
+                $('#panel').animate({ top: '200px' }, 3000);
 
-
+                 $('#panel').animate({ left: '1000px' }, 3000);
+                 $('#panel').animate({ left: '200px' }, 3000);
+                 $('#panel').animate({ left: '900px' }, 3000);
+                 $('#panel').animate({ left: '250px' }, 3000);
+                 $('#panel').animate({ left: '800px' }, 3000);
+                 $('#panel').animate({ left: '300px' }, 3000);
+                 $('#panel').animate({ left: '700px' }, 3000);
+                 $('#panel').animate({ left: '350px' }, 3000);
+                 $('#panel').animate({ left: '600px' }, 3000);
+                 $('#panel').animate({ left: '400px' }, 3000);
+                
             })
             $('#stop').click(function(){
                 $('#panel').stop();
